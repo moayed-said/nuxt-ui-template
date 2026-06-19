@@ -1,0 +1,133 @@
+{
+    "invalidType": "المتوقع {expected}، ولكن تم استلام {received}",
+    "invalidTypeReceivedUndefined": "مطلوب",
+    "invalidTypeReceivedNull": "مطلوب",
+    "invalidValue": "قيمة غير صالحة، المتوقع {expected} | قيمة غير صالحة، المتوقع واحد من {expected}",
+    "unrecognizedKeys": "مفاتيح غير معروفة: {keys}",
+    "invalidKey": "مفتاح غير صالح في {origin}",
+    "invalidUnion": "قيمة غير صالحة",
+    "invalidElement": "قيمة غير صالحة في {origin}",
+    "custom": "قيمة غير صالحة",
+    "notMultipleOf": "يجب أن يكون الرقم مضاعفًا لـ {multipleOf}",
+    "invalidFormat": {
+        "starts_with": "يجب أن يبدأ بـ {prefix}",
+        "ends_with": "يجب أن ينتهي بـ {suffix}",
+        "includes": "يجب أن يتضمن {includes}",
+        "regex": "يجب أن يطابق النمط {pattern}",
+        "default": "تنسيق غير صالح، المتوقع {format}"
+    },
+    "tooSmall": {
+        "number": {
+            "exact": "أدخل بالضبط {minimum}",
+            "inclusive": "أدخل قيمة أكبر من أو تساوي {minimum}",
+            "notInclusive": "أدخل قيمة أكبر من {minimum}"
+        },
+        "int": {
+            "exact": "أدخل بالضبط {minimum}",
+            "inclusive": "أدخل قيمة أكبر من أو تساوي {minimum}",
+            "notInclusive": "أدخل قيمة أكبر من {minimum}"
+        },
+        "bigint": {
+            "exact": "أدخل بالضبط {minimum}",
+            "inclusive": "أدخل قيمة أكبر من أو تساوي {minimum}",
+            "notInclusive": "أدخل قيمة أكبر من {minimum}"
+        },
+        "date": {
+            "exact": "يجب أن يكون التاريخ بالضبط {minimum}",
+            "inclusive": "يجب أن يكون التاريخ في أو بعد {minimum}",
+            "notInclusive": "يجب أن يكون التاريخ بعد {minimum}"
+        },
+        "string": {
+            "exact": "أدخل بالضبط {minimum} حرفًا",
+            "inclusive": "الحد الأدنى للطول {minimum} حرفًا",
+            "notInclusive": "أدخل أكثر من {minimum} حرفًا"
+        },
+        "array": {
+            "exact": "أدخل بالضبط {minimum} عنصرًا",
+            "inclusive": "أدخل على الأقل {minimum} عنصرًا",
+            "notInclusive": "أدخل أكثر من {minimum} عنصرًا"
+        },
+        "set": {
+            "exact": "أدخل بالضبط {minimum} عنصرًا",
+            "inclusive": "أدخل على الأقل {minimum} عنصرًا",
+            "notInclusive": "أدخل أكثر من {minimum} عنصرًا"
+        },
+        "file": {
+            "exact": "قم بتحميل ملف بحجم {minimum} بايت بالضبط",
+            "inclusive": "قم بتحميل ملف بحجم {minimum} بايت على الأقل",
+            "notInclusive": "قم بتحميل ملف بحجم أكبر من {minimum} بايت"
+        }
+    },
+    "tooBig": {
+        "number": {
+            "exact": "أدخل بالضبط {maximum}",
+            "inclusive": "أدخل قيمة أقل من أو تساوي {maximum}",
+            "notInclusive": "أدخل قيمة أقل من {maximum}"
+        },
+        "int": {
+            "exact": "أدخل بالضبط {maximum}",
+            "inclusive": "أدخل قيمة أقل من أو تساوي {maximum}",
+            "notInclusive": "أدخل قيمة أقل من {maximum}"
+        },
+        "bigint": {
+            "exact": "أدخل بالضبط {maximum}",
+            "inclusive": "أدخل قيمة أقل من أو تساوي {maximum}",
+            "notInclusive": "أدخل قيمة أقل من {maximum}"
+        },
+        "date": {
+            "exact": "يجب أن يكون التاريخ بالضبط {maximum}",
+            "inclusive": "يجب أن يكون التاريخ في أو قبل {maximum}",
+            "notInclusive": "يجب أن يكون التاريخ قبل {maximum}"
+        },
+        "string": {
+            "exact": "أدخل بالضبط {maximum} حرفًا",
+            "inclusive": "الحد الأقصى للطول {maximum} حرفًا",
+            "notInclusive": "أدخل أقل من {maximum} حرفًا"
+        },
+        "array": {
+            "exact": "أدخل بالضبط {maximum} عنصرًا",
+            "inclusive": "أدخل على الأكثر {maximum} عنصرًا",
+            "notInclusive": "أدخل أقل من {maximum} عنصرًا"
+        },
+        "set": {
+            "exact": "أدخل بالضبط {maximum} عنصرًا",
+            "inclusive": "أدخل على الأكثر {maximum} عنصرًا",
+            "notInclusive": "أدخل أقل من {maximum} عنصرًا"
+        },
+        "file": {
+            "exact": "قم بتحميل ملف بحجم {maximum} بايت بالضبط",
+            "inclusive": "قم بتحميل ملف بحجم {maximum} بايت على الأكثر",
+            "notInclusive": "قم بتحميل ملف بحجم أقل من {maximum} بايت"
+        }
+    },
+    "types": {
+        "regex": "المدخل",
+        "email": "عنوان البريد الإلكتروني",
+        "url": "الرابط (URL)",
+        "emoji": "رمز تعبيري (emoji)",
+        "uuid": "UUID",
+        "uuidv4": "UUIDv4",
+        "uuidv6": "UUIDv6",
+        "nanoid": "nanoid",
+        "guid": "GUID",
+        "cuid": "cuid",
+        "cuid2": "cuid2",
+        "ulid": "ULID",
+        "xid": "XID",
+        "ksuid": "KSUID",
+        "datetime": "التاريخ والوقت بتنسيق ISO",
+        "date": "التاريخ بتنسيق ISO",
+        "time": "الوقت بتنسيق ISO",
+        "duration": "المدة بتنسيق ISO",
+        "ipv4": "عنوان IPv4",
+        "ipv6": "عنوان IPv6",
+        "cidrv4": "نطاق IPv4",
+        "cidrv6": "نطاق IPv6",
+        "base64": "سلسلة نصية بتنسيق base64",
+        "base64url": "رابط بتنسيق base64",
+        "json_string": "سلسلة نصية بتنسيق JSON",
+        "e164": "رقم بتنسيق E.164",
+        "jwt": "JWT",
+        "template_literal": "المدخل"
+    }
+}
